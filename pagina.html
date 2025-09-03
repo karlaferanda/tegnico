@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Presentación Escolar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f9f9f9, #f1f1ff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #ff7eb3, #ff758c, #ffb199);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 15px;
+      margin: 15px;
+      background: #fff;
+      border: 2px solid #ff7eb3;
+      border-radius: 10px;
+      box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin: 0 0 10px;
+      color: #ff758c;
+    }
+    p, li {
+      font-size: 14px;
+    }
+    ul {
+      padding-left: 18px;
+    }
+    .highlight {
+      color: #ff7eb3;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: linear-gradient(135deg, #ff758c, #ffb199);
+      color: white;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Presentación Escolar</h1>
+    <p>Un poco más de mí ✨</p>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Me llamo <span class="highlight">Karla Fernanda Romero García</span>. soy una alumna de l6 años estudiando la carrera de programacion, creo pginas web y programas para aplicaciones.</p>
+  </section>
+
+  <section>
+    <h2>En que soy mejor ?</h2>
+    <ul>
+      <li>hago los trabajos rapidos 🎶</li>
+      <li>quedan de la manera ue mas te guste 🐾</li>
+      <li>soy muy habil💕</li>
+      <li>rapida 🌍</li>
+    
+    </ul>
+  </section>
+
+  <section>
+    <h2>Mis trabajos</h2>
+    <p>Mis trabajos nse basan en lo que mas me gusta, el diseño y todos los detalles que tienen  <span class="highlight">TRABAJOS</span> y algún día tener un proyecto propio relacionado con la naturaleza 🌱. También quiero viajar y conocer nuevos lugares ✈️.</p>
+  </section>
+
+  <section>
+    <h2>Contratenmeee 💖 </h2>
+    <p>"GRACIAS✨"</p>
+  </section>
+
+  <footer>
+    © <span id="anio"></span> Mi Presentación 💖 
+  </footer>
+
+  <script>
+    document.getElementById("anio").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
